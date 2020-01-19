@@ -17,13 +17,9 @@ optional arguments:
   -i indent           The indentation level.
 ```
 
+# Example call and output
 ```
-$ ./h5tree.py ~/dev/thesis-useful/out/0930-2-toyproblem-2d-brownian_r5e-9-r0_1e-3-10000.h5 -c 5 -d 3 -i 2                                                                                                       
-.
-* dimensions = 2
-* time_step = 1e-05
-$ ./h5tree.py ~/dev/thesis-useful/out/0930-2-toyproblem-2d-brownian_r5e-9-r0_1e-3-10000.h5 -c 5 -a 1
-5 -d 3 -i 2                                                                                                       
+$ ./h5tree.py test.h5 -c 5 -d 3 -i 2                                                                                                       
 .
 * dimensions = 2
 * time_step = 1e-05
